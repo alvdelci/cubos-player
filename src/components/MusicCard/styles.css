@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+.cardContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+}
+
+.cardContainer img {
+    width: 240px;
+}
+
+.cardContainer label {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+}
+
+.cardContainer span {
+    color: #CCC3C3;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+}
+
+.playSection {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}

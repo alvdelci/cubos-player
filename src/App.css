@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+main {
+    margin: 30px 10vw 20px 10vw;
+    color: #ffffff;
+}
+
+main h2 {
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .playlists {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #6A6363;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+}

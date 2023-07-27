@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid #6A6363;
+}
+
+.profileContent {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.profileContent img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profileContent label {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
