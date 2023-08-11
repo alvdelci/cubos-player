@@ -1,47 +1,34 @@
-![](https://i.imgur.com/xG74tOh.png)
+# Desafio do módulo 03 - Cubos Player
 
-# Aula prática de React - Cubos Player
+![player](https://github.com/alvdelci/desafio-frontend-m03-ddst12/assets/54966827/12180f6a-d0a4-42a7-9f44-92d85711d09b)
 
-Essa aula prática consiste em desenvolver um player de músicas, para isso você usará o layout figma que se encontra nesse [link](https://www.figma.com/file/2RRh9uG0Mjj6p4p6ekVnNp/Cubos-Player?node-id=0%3A1).
-
-
-Caso você queira importar o arquivo do figma no seu computador, ele está nessa pasta com o nome `Cubos Player.fig`
-
-
-Os detalhes do que você precisará desenvolver está nos vídeos introdutórios da aula...
-
-
-... mas o layout que você irá encontrar no figma é esse:
-
-![](https://i.imgur.com/kU1nrcS.png)
+A aplicação é um player de músicas desenvolvido com React aplicando os conceitos de flexbox, props, estados e hooks.
+Neste projeto, o maior desafio foi trabalhar com props passando informações das músicas através dos componentes, além da barra de progresso que acompanha o progresso da música
 
 ---
-### Dicas
-Não sabe por onde começar? Que tal começar olhando o que já existe dentro do projeto, após isso pense no projeto final e defina pequenas tarefas para chegar a esse resultado.
+### Executando o App
+Para executar a aplicação é necessário ter o nodejs instalado na máquina e seguir os passos abaixo:
 
-No exercício será necessário:
+- Clonar este repositório utilizando o comando `https://github.com/alvdelci/desafio-frontend-m03-ddst12.git`
+- Instalar as dependências do projeto
+  <br>-- Para instalar as dependências do projeto vamos utilizar um gerenciador de pacotes. Por padrão, o nodejs vem com o NPM, mas recomendo a instalação do YARN com o comando `npm install -g yarn`
+  <br>-- Abra o terminal na pasta do projeto e execute o comando `npm install` (com NPM) ou `yarn install` (com YARN)
+- Após a instalação das dependências podemos executar com o comando `npm run start` (com NPM) ou `yarn start` (com YARN)
+- Ao executar o passo anterior a aplicação abrirá no seu navegador padrão, se isso não acontecer, basta abrir o navegador e acessar a url `http://localhost:3000`
 
-- Criar e manipular estado
-- Criar e manipular referências
-- Utilizar eventos de clique
-- Passar propriedades
-- Importar imagens
-- Executar uma ação várias vezes de tempo em tempo
-- Importar dados do arquivo json
-- Procurar itens
+### Considerações sobre a aplicação
+
+- As músicas podem ser tocadas clicando no cartão da música onde, ao passar o cursor, aparece um ícone de play.
+- A primeira música está definida como valor inicial do play, portanto, se ela estiver aparecendo na barra de playing não poderá ser iniciada clicando no cartão, apenas pelo botão de play.
+- As músicas não tocam automaticamente quando a anterior termina.
+- O botão de Preview retornar as músicas até a primeira lista.
+- O botão de Next avança as músicas de forma circular, ou seja, ao chegar na ultima ela avançará para a primeira e o ciclo recomeçará.
+- O usuário pode interagir com a barra de progresso clicando ou arrastando para avançar e retornar o tempo da música.
+- O controle de volume é iniciado por padrão no volume 3, podendo ser aumentado até o volume 10 e reduzido até o volume 0 puxando o slider.
+- O áudio pode ser mutado clicando no ícone do volume.
 
 
-As duas aulas anteriores são as mais importantes para você conseguir desenvolver esse projeto.
 
 
----
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
-###### tags: `módulo 3` `front-end` `React`
+##### OBS.: Todas as músicas utilizadas no projeto além das que foram fornecidas pela Instituição de ensino são para fins totalmente acadêmicos, sendo vetada sua distribuição.
 
